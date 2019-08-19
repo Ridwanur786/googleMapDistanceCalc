@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distance matrix using java script</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="table-responsive-sm">
+                <table class="table table-borderless table-stripped" border="0" cellpadding="0" cellspacing="3">
+                    <tr>
+                        <td colspan="2">
+                           ORIGIN: <input type="text"  id="source" class="form-control">
+                        </td>
+                        <td colspan="2">
+                           Destination: <input type="text"  id="destination" class="form-control">
+                        </td>
+                    </tr>
+                    <tr>
+<td>
+    <input type="submit" class="btn btn-dark btn-sm"  id="btn" value="get distance">
+</td>
+                    </tr>
+                    <tr>
+                    <td colspan="2">
+                        <div id="result"></div>
+                    </td>
+                </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUPwqz5HEm-P_AQsZDEPEQLE9jJ7AxfyU&libraries=places"></script>
+<script src="custom.js"></script>
+
+</script>
+</body>
+</html>
